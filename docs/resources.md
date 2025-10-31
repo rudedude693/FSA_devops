@@ -4,7 +4,6 @@ title: Resources
 permalink: /resources/
 ---
 
----
 ## How-to Guides & Instructions
 
 1. [DevOps Guides Overview](https://gperdrizet.github.io/FSA_devops/devops_pages/overview.html)
@@ -30,3 +29,13 @@ permalink: /resources/
     - [Official documentation](https://pandas.pydata.org/docs)
     - [GitHub repository](https://github.com/pandas-dev/pandas)
     - [PyPI package page](https://pypi.org/project/pandas)
+
+---
+## Slides
+
+1. <a href="https://gperdrizet.github.io/FSA_devops/assets/slides/Capstone_Session_1.pdf" download>Incremental capstone session 1</a>
+
+---
+## Datasets
+
+1. <a href="https://gperdrizet.github.io/FSA_devops/assets/data/NSMES1988-NSMES1988.csv" download>Incremental capstone dataset 1</a>
