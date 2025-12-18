@@ -193,3 +193,19 @@ units:
         notebooks:
           - name: "Save the Princess Starter"
             file: "INC_6_Save_the_Princess.ipynb"
+          - name: "Save the Princess (Solution)"
+            file: "INC_6_Save_the_Princess_Solution.ipynb"
+
+      - number: "21"
+        title: "Ensemble methods"
+        topics: "Ensemble learning: bagging, boosting, stacking"
+        notebooks:
+          - name: "Demo"
+            file: "Lesson_21_demo.ipynb"
+
+      - number: "22"
+        title: "Unsupervised learning"
+        topics: "Clustering, dimensionality reduction"
+        notebooks:
+          - name: "Demo"
+            file: "Lesson_22_demo.ipynb"
