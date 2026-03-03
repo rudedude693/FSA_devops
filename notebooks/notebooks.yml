@@ -326,3 +326,41 @@ units:
             file: "Lesson_34_activity.ipynb"
           - name: "Activity solution"
             file: "Lesson_34_activity_solution.ipynb"
+
+  - name: "Unit 5: Natural Language Processing"
+    number: 5
+    lessons:
+      - number: "38"
+        title: "Text data analysis"
+        topics: "Cleaning and understanding text data before vectorization"
+        notebooks:
+          - name: "In-class demo"
+            file: "Lesson_38_demo.ipynb"
+          - name: "Activity"
+            file: "Lesson_38_activity.ipynb"
+          - name: "Activity solution"
+            file: "Lesson_38_activity_solution.ipynb"
+      - number: "39"
+        title: "Text vectorization"
+        topics: "Vectorizing text data for machine learning models"
+        notebooks:
+          - name: "In-class demo"
+            file: "Lesson_39_demo.ipynb"
+          - name: "Activity"
+            file: "Lesson_39_activity.ipynb"
+      - number: "40"
+        title: "Distributed representations"
+        topics: "Distributed representations of text for machine learning models"
+        notebooks:
+          - name: "In-class demo"
+            file: "Lesson_40_demo.ipynb"
+          - name: "Activity"
+            file: "Lesson_40_activity.ipynb"
+      - number: "41"
+        title: "Machine translation"
+        topics: "Encoder-decoder architecture for machine translation"
+        notebooks:
+          - name: "In-class demo"
+            file: "Lesson_41_demo.ipynb"
+          - name: "Activity"
+            file: "Lesson_41_activity.ipynb"
