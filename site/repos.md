@@ -26,3 +26,5 @@ As the course progresses and projects get more complex, we will start to move aw
 9. **Autoencoders demo**: [gperdrizet/autoencoders](https://github.com/gperdrizet/autoencoders) Demonstration of convolutional autoencoder models for compression, denoising and anomaly detection with images.
 
 10. **Distributed GANN training**: [gperdrizet/GANNs-with-freinds](https://github.com/gperdrizet/GANNs-with-friends). Distributed deep learning demo using DCGANNs to generate realistic images of faces.
+
+11. **Encoder decoder translation models**: [gperdrizet/language-models](https://github.com/gperdrizet/language-models). Neural machine translation models using encoder-decoder architecture and LSTM+attention.
