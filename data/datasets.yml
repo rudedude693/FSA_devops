@@ -12,8 +12,8 @@ units:
           - name: "Electronics sales data"
             file: "sales.csv"
       
-      - number: "INC1"
-        title: "Incremental capstone 1"
+      - number: "INC 1"
+        title: "Incremental Capstone 1"
         assignment: "Import and clean data"
         datasets:
           - name: "NSMES 1988 patient data"
@@ -62,15 +62,15 @@ units:
           - name: "Synthetic environmental data"
             file: "environmental_data.csv"
 
-      - number: "INC1-3"
-        title: "Incremental capstone 1-3"
+      - number: "INC 1-3"
+        title: "Incremental Capstone 1-3"
         assignment: "Data cleaning and exploration"
         datasets:
           - name: "Original NSMES 1988 patient data"
             file: "NSMES1988-NSMES1988.csv"
 
-      - number: "INC4"
-        title: "Incremental capstone 4"
+      - number: "INC 4"
+        title: "Incremental Capstone 4"
         assignment: "Data Visualization Techniques"
         datasets:
           - name: "Dirty NSMES 1988 patient data"
@@ -90,8 +90,8 @@ units:
           - name: "Preprocessed distance-to-water data"
             file: "distance_to_water_preprocessed.csv"
 
-      - number: "INC5"
-        title: "Incremental capstone 5"
+      - number: "INC 5"
+        title: "Incremental Capstone 5"
         assignment: "Florida Bike Rentals"
         datasets:
           - name: "Florida Bike Rentals"
@@ -106,8 +106,8 @@ units:
           - name: "Kaggle diabetes prediction testing data"
             file: "diabetes_prediction_test.csv"
 
-      - number: "INC6"
-        title: "Incremental capstone 6"
+      - number: "INC 6"
+        title: "Incremental Capstone 6"
         assignment: "Save the Princess"
         datasets:
           - name: "Cure Ingredients"
@@ -153,26 +153,26 @@ units:
           - name: "2016 Twitter sentiment data"
             file: "twitter-2016.parquet"
 
-      - number: "INC9"
-        title: "Incremental capstone 9"
+      - number: "INC 9"
+        title: "Incremental Capstone 9"
         datasets:
           - name: "Banking customer data"
             file: "Churn_Modeling.csv"
 
-      - number: "INC10"
-        title: "Incremental capstone 10"
+      - number: "INC 10"
+        title: "Incremental Capstone 10"
         datasets:
           - name: "Face mask detection dataset"
             file: "Face_mask_detection.zip"
 
-      - number: "INC11"
-        title: "Incremental capstone 11"
+      - number: "INC 11"
+        title: "Incremental Capstone 11"
         datasets:
           - name: "Grammar and Product Reviews"
             file: "GrammarandProductReviews.csv"
 
-      - number: "INC12"
-        title: "Incremental capstone 12"
+      - number: "INC 12"
+        title: "Incremental Capstone 12"
         datasets:
           - name: "Dental X-rays"
             file: "DENTAL_1.NPZ"
@@ -192,4 +192,28 @@ units:
         datasets:
           - name: "Lending_Club - Data"
             file: "Lending_Club.csv"
+
+  - name: "Unit 5: Natural Language Processing"
+    number: 5
+    lessons:
+      - number: "INC 13"
+        title: "Incremental Capstone 13"
+        assignment: "INC 13: Natural language processing"
+        datasets:
+          - name: "Labeled Training Dataset"
+            file: "labeledTrainData.tsv"
+          - name: "Unlabeled Testing Dataset"
+            file: "unlabeledTestData.tsv"
+      - number: "CEP 5"
+        title: "Course End Project 5"
+        assignment: "CEP 5: Natural language processing"
+        datasets:
+          - name: "Data Dictionary"
+            file: "Data_Dictionary.csv"
+          - name: "Department of Product"
+            file: "Department_of_Product.csv"
+          - name: "Issues"
+            file: "Issues.csv"
+          - name: "Customer Reviews"
+            file: "complaints_banking_2023.csv"
 

@@ -7,7 +7,10 @@ permalink: /resources/
 ## Capstone resources
 - [Capstone overview]({{ '/resource_pages/capstone_overview.html' | relative_url }})
 
-## Natural language processing
+## Unit 6: Applications of generative AI
+- [Unit outline]({{ '/resource_pages/gen_ai_outline.html' | relative_url }})
+
+## Unit 5: Natural language processing
 - [Unit outline]({{ '/resource_pages/nlp_unit_outline.html' | relative_url }})
 
 ## TensorFlow notes (work-in-progress)
