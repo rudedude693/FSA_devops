@@ -1,38 +1,38 @@
-# Course 06: Essentials and Applications of Generative AI - Lesson outlines
+---
+layout: page
+title: Essentials and applications of generative AI unit outline
+permalink: /resource_pages/genai_applications_unit_outline.html
+nav_exclude: true
+---
 
-## Lesson 44: State of the art in generative AI (Foundation overview)
+## Lesson 44: State of the art in generative AI (LLM landscape and foundations)
 
-**Focus:** Survey of state-of-the-art large language models for text and code generation
+**Focus:** Survey of state-of-the-art LLMs with foundational concepts for understanding and comparing models
 
 | Topic | Purpose |
 |-------|--------|
-| Open vs closed weights | Distinction between API-only and self-hostable models |
-| Text generation models | GPT, Claude, Gemini, Llama, Mistral - capabilities and use cases |
-| Code generation models | Qwen, CodeLlama, StarCoder, DeepSeek Coder - programming assistance |
-| Key trends | Longer context windows, efficiency improvements, open model progress, specialization |
-| Limitations and considerations | Hallucinations, costs, privacy concerns, bias, copyright |
+| The landscape | Open vs closed weights, licensing, text and code generation models |
+| Evaluating models | Model sizes and parameters, context length, benchmarks |
+| Looking ahead | Key trends (efficiency, reasoning, agents) and limitations |
 
-**Key concepts:** Open vs closed weights, foundation models, LLM landscape, practical applications
+**Key concepts:** Open vs closed weights, licensing, model sizes, context length, benchmarks, LLM landscape
 
 ---
 
-## Lesson 45: Text generation with LLMs (Practical deployment)
+## Lesson 45: Practical LLM deployment (Working with large language models)
 
-**Focus:** Deployment strategies and practical considerations for working with LLMs
+**Focus:** How to configure, interact with, and deploy LLMs - structured as a walk through the application stack
 
 | Topic | Purpose |
 |-------|--------|
-| How model interaction works | Input/output text flow, conversation context |
-| Self-hosting locally | Running models on local hardware (Ollama, llama.cpp, GPT4All, LM Studio) |
-| Self-hosting in cloud | Deploying on cloud infrastructure (AWS SageMaker, RunPod, vLLM) |
-| API access | Using hosted APIs (OpenAI, Anthropic, Google) |
-| Performance and cost tradeoffs | Latency, throughput, quality, and cost comparison across deployment options |
-| Decision framework | Choosing deployment based on privacy, volume, and quality needs |
-| LLM application frameworks | LangChain, LlamaIndex, Haystack, Semantic Kernel, DSPy |
+| Model layer | Decoding strategies, hyperparameters, performance optimizations |
+| Inference layer | Local (direct loading, Ollama), cloud, and API deployment options; tokens and cost |
+| Framework layer | Why use a framework; LangChain, LlamaIndex, Haystack, and others |
+| Application layer | System prompts, message format (system/user/assistant), streaming vs batch |
 
-**Builds on 44:** Applies foundation model knowledge to practical implementation
+**Builds on 44:** Applies foundation model knowledge to practical configuration and deployment
 
-**Key concepts:** Deployment strategies, cost-benefit analysis, model hosting options, application frameworks
+**Key concepts:** Application stack layers, decoding strategies, hyperparameters, deployment strategies, LLM frameworks, chat message format
 
 ---
 
@@ -130,7 +130,7 @@
 
 ---
 
-## Lesson 51: Advanced agents and production deployment
+## Lesson 51: Advanced agents and production deployment (Capstone)
 
 **Focus:** Complex multi-agent systems and deploying LLM applications to production
 
@@ -143,6 +143,7 @@
 | Production deployment | Containerization, API design, monitoring |
 | Cost optimization | Caching, prompt optimization, model selection |
 | Safety and alignment | Guardrails, content filtering, output validation |
+| Real-world applications | Case studies of production agent systems |
 
 **Builds on 50:** Advanced patterns building on basic agents from Lesson 49
 
@@ -152,9 +153,16 @@
 
 ## Course progression summary
 
-1. **Foundation (Lesson 44):** State-of-the-art generative AI landscape  
-2. **LLM Deployment (Lesson 45):** Local hosting, cloud hosting, API access  
-3. **Prompt Engineering (Lessons 46-47):** Zero-shot → Few-shot → CoT → ToT  
-4. **LangChain Development (Lessons 48-49):** Core components → RAG + Agents  
-5. **Customization & Tools (Lesson 50):** Fine-tuning, MCP servers, tool integration  
-6. **Advanced Production (Lesson 51):** Multi-agent systems, deployment, safety
+**Foundation (Lesson 44):** LLM landscape, model sizes, context length, quantization, benchmarks  
+↓  
+**Configuration & Deployment (Lesson 45):** Decoding strategies, hyperparameters, chat vs completion, hosting options  
+↓  
+**Prompt Engineering (Lessons 46-47):** Zero-shot → Few-shot → CoT → ToT  
+↓  
+**LangChain Development (Lessons 48-49):** Core components → RAG + Agents  
+↓  
+**Customization & Tools (Lesson 50):** Fine-tuning, MCP servers, tool integration  
+↓  
+**Advanced Production (Lesson 51):** Multi-agent systems, deployment, safety
+
+**Key pedagogical flow:** The course moves from surveying the generative AI landscape to practical LLM deployment, systematically building skills in prompting, application development, model customization, tool integration, and production deployment with advanced agent systems.

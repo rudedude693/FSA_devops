@@ -6,19 +6,18 @@ permalink: /resources/
 
 ## Capstone resources
 - [Capstone overview]({{ '/resource_pages/capstone_overview.html' | relative_url }})
+- [Project proposal template](https://docs.google.com/document/d/13g--4UALTaH-pz56bHDBALg4JnSz-8mvA7K6vy6w-3c/edit?usp=sharing)
+- [Project proposal example](https://docs.google.com/document/d/10H98gq1HCj6Qp5L-T2mBoaAW-ZCT7BPLhzQcuRW_ipk/edit?usp=sharing)
 
 ## Unit 6: Applications of generative AI
-- [Unit outline]({{ '/resource_pages/gen_ai_outline.html' | relative_url }})
+- [Unit outline]({{ '/resource_pages/genai_applications_unit_outline.html' | relative_url }})
+- LLM application demos repository: [`gperdrizet/llms-demo`](https://github.com/gperdrizet/llms-demo)
+- Containerized LLM development environment: [`gperdrizet/llms-devcontainer`](https://github.com/gperdrizet/llms-devcontainer)
 
 ## Unit 5: Natural language processing
 - [Unit outline]({{ '/resource_pages/nlp_unit_outline.html' | relative_url }})
-
-## TensorFlow notes (work-in-progress)
-
-- [Tensorflow setup options]({{ '/devops_pages/tensorflow.html' | relative_url }})
-- TensorFlow development environment GitHub repository: [gperdrizet/tensorflow-GPU](https://github.com/gperdrizet/tensorflow-GPU#)
-- George's TensorFlow 2.16 container on DockerHub: [gperdrizet/tensorflow-gpu](https://hub.docker.com/r/gperdrizet/tensorflow-gpu)
-- NVIDIA's [TensorFlow Release 24.06 container](https://docs.nvidia.com/deeplearning/frameworks/tensorflow-release-notes/rel-24-06.html)
+- Language models demos: [`gperdrizet/language-models`](https://github.com/gperdrizet/language-models)
+- Recurrent neural networks for NLP demos: [`gperdrizet/RNNs`](https://github.com/gperdrizet/RNNs)
 
 ## How-to Guides & Instructions
 
